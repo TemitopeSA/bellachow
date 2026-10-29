@@ -3,7 +3,7 @@
 > **An unofficial product concept by Temitope Samuel Akinmoladun. Not affiliated with Chowdeck.**
 > Portfolio prototype only: simulated ordering, no real payments, no live restaurant or rider integrations.
 
-**Planned URL:** https://bellachow.vercel.app
+**Live:** https://bellachow-opal.vercel.app  (the preferred `bellachow.vercel.app` is owned by an unrelated Vercel project)
 
 BellaChow is a mobile-first food-ordering prototype with **Bella**, a concierge that turns a Lagos-style craving —
 *"Something spicy under ₦6k, I'm in Yaba, 30 mins max 🌶"* — into a ranked shortlist with the **all-in estimated
@@ -115,7 +115,7 @@ npm run build      # type-check + production build to dist/
 ## Deploy to Vercel
 1. Push to GitHub, then **Import Project** in Vercel (framework: Vite, build `npm run build`, output `dist`) — or
    `npx vercel --prod` from the repo.
-2. Name the project `bellachow` so the default domain is `bellachow.vercel.app` (subject to availability).
+2. Name the project `bellachow`. Vercel assigned `bellachow-opal.vercel.app` because `bellachow.vercel.app` is taken; attach a custom domain under Project → Domains if you want a cleaner URL.
 3. *(Optional)* add `ANTHROPIC_API_KEY` under Project → Settings → Environment Variables. Never prefix it with `VITE_`.
 4. `vercel.json` rewrites client routes to `index.html` and leaves `/api/*` to the function.
 
