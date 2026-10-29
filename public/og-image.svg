@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="0.2" cy="0" r="0.9"><stop offset="0" stop-color="#03593b"/><stop offset="1" stop-color="#012b1d"/></radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1060" cy="90" r="160" fill="#038B5C" opacity="0.35"/>
+  <circle cx="980" cy="560" r="110" fill="#FFEDB3" opacity="0.08"/>
+  <g transform="translate(80 92)">
+    <rect width="72" height="72" rx="20" fill="#038B5C"/>
+    <path d="M36 12l4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill="#FFEDB3"/>
+    <path d="M16 44h40a20 20 0 0 1-40 0z" fill="#fff"/>
+    <text x="96" y="50" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff">BellaChow</text>
+  </g>
+  <text x="80" y="268" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#fff">Not sure what to eat?</text>
+  <text x="80" y="346" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#FFEDB3">Ask Bella.</text>
+  <text x="80" y="420" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif" font-size="28" fill="#cfe7dc">An AI food concierge concept: all-in prices and honest ETAs, before you pay.</text>
+  <g transform="translate(80 470)">
+    <rect width="560" height="56" rx="28" fill="#FFEDB3"/>
+    <text x="28" y="37" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#014C32">“Something spicy under ₦6k, Yaba, 30 mins”</text>
+  </g>
+  <text x="80" y="590" font-family="Plus Jakarta Sans, Helvetica, Arial, sans-serif" font-size="18" fill="#8fb7a6">An unofficial product concept by Temitope Samuel Akinmoladun. Not affiliated with Chowdeck.</text>
+</svg>

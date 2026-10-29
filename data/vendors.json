@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "description": "Source of truth for every vendor, branch, menu item and price shown in the BellaChow portfolio demo.",
+    "status": "PORTFOLIO CONCEPT DATA — not a live ordering feed. Nothing here is verified live information.",
+    "prices": "Menu prices are approximate reference prices supplied by the portfolio brief. Always display as approximate.",
+    "hours": "Opening hours are ILLUSTRATIVE DEMO CONFIGURATION (not supplied, not verified). They exist only so open/closed states can be demonstrated.",
+    "coordinates": "Branch coordinates are approximate public-map placements for the demo, not verified addresses.",
+    "tags": "Item tags are derived only from the supplied item names (e.g. 'Spicy' -> spicy, 'Breakfast' -> breakfast). No ingredient data was supplied, so diet arrays are empty.",
+    "verified": "verified=true means 'demo listing with supplied menu data', not a live verification by any platform.",
+    "todo": "Vendors with menuId=null are placeholders. TODO: add their real menus (with source + date) before they can be recommended."
+  },
+  "menus": {
+    "chicken-republic": {
+      "source": "Supplied by the BellaChow portfolio brief (approximate reference prices). Shared across the five demo branches.",
+      "items": [
+        { "slug": "spicy-yam-meal", "name": "Spicy Yam Meal", "section": "Spicy Yam", "price": 3500, "tags": ["spicy", "yam", "meal"], "diet": [], "emoji": "🍠" },
+        { "slug": "spicy-yam-combo", "name": "Spicy Yam Combo", "section": "Spicy Yam", "price": 4800, "tags": ["spicy", "yam", "combo", "filling"], "diet": [], "emoji": "🌶️" },
+        { "slug": "refuel-meal", "name": "Refuel Meal", "section": "Refuel", "price": 2800, "tags": ["meal"], "diet": [], "emoji": "🍛" },
+        { "slug": "refuel-more", "name": "Refuel More", "section": "Refuel", "price": 4700, "tags": ["meal", "filling"], "diet": [], "emoji": "🍲" },
+        { "slug": "refuel-max-combo", "name": "Refuel Max Combo", "section": "Refuel", "price": 3900, "tags": ["combo", "filling"], "diet": [], "emoji": "🥘" },
+        { "slug": "express-combo", "name": "Express Combo", "section": "Combos", "price": 5400, "tags": ["combo", "filling"], "diet": [], "emoji": "🍱" },
+        { "slug": "big-boyz-combo", "name": "Big Boyz Combo", "section": "Combos", "price": 9100, "tags": ["combo", "filling"], "diet": [], "emoji": "🍗" },
+        { "slug": "original-chickwhizz", "name": "Original ChickWhizz", "section": "ChickWhizz", "price": 3400, "tags": ["chicken", "whizz"], "diet": [], "emoji": "🥪" },
+        { "slug": "chickwhizz-meal", "name": "ChickWhizz Meal", "section": "ChickWhizz", "price": 6400, "tags": ["chicken", "whizz", "meal"], "diet": [], "emoji": "🍟" },
+        { "slug": "double-chickwhizz-meal", "name": "Double ChickWhizz Meal", "section": "ChickWhizz", "price": 8100, "tags": ["chicken", "whizz", "meal", "filling"], "diet": [], "emoji": "🥙" },
+        { "slug": "chief-burger", "name": "Chief Burger", "section": "Chief Burger", "price": 5100, "tags": ["burger"], "diet": [], "emoji": "🍔" },
+        { "slug": "chief-burger-combo", "name": "Chief Burger Combo", "section": "Chief Burger", "price": 7900, "tags": ["burger", "combo", "filling"], "diet": [], "emoji": "🍔" },
+        { "slug": "double-chief-burger-combo", "name": "Double Chief Burger Combo", "section": "Chief Burger", "price": 11500, "tags": ["burger", "combo", "filling"], "diet": [], "emoji": "🍔" },
+        { "slug": "big-whizz-meal", "name": "Big Whizz Meal", "section": "Big Whizz", "price": 7000, "previousPrice": 8600, "tags": ["whizz", "meal", "filling"], "diet": [], "emoji": "🍽️" },
+        { "slug": "bigwhizz-reloaded", "name": "Bigwhizz Reloaded", "section": "Big Whizz", "price": 7000, "previousPrice": 9200, "tags": ["whizz", "filling"], "diet": [], "emoji": "🥡" },
+        { "slug": "original-chickwhizz-breakfast-combo", "name": "Original ChickWhizz Breakfast Combo", "section": "Breakfast", "price": 3900, "tags": ["breakfast", "chicken", "whizz", "combo"], "diet": [], "emoji": "🍳" },
+        { "slug": "pastry-breakfast-combo", "name": "Pastry Breakfast Combo", "section": "Breakfast", "price": 1700, "tags": ["breakfast", "pastry", "combo"], "diet": [], "emoji": "🥐" }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "id": "cr-yaba", "brand": "Chicken Republic", "branch": "Yaba", "area": "yaba",
+      "address": "Herbert Macaulay Way, Yaba (approx.)", "lat": 6.507, "lng": 3.3725,
+      "rating": 4.2, "ratingCount": "6.9K+", "prepMins": [24, 34],
+      "hours": { "opens": "08:00", "closes": "22:00" },
+      "verified": true, "promo": ["Citizens BOGOF", "BigWhizz deal"],
+      "categories": ["Chicken", "Fast Food", "Burgers"], "keywords": ["chicken", "burger", "fast food"],
+      "menuId": "chicken-republic", "provenance": "Brand, rating, prep time, promos and menu supplied by brief. Hours and coordinates are demo configuration."
+    },
+    {
+      "id": "cr-lekki", "brand": "Chicken Republic", "branch": "Lekki", "area": "lekki",
+      "address": "Admiralty Way, Lekki Phase 1 (approx.)", "lat": 6.444, "lng": 3.474,
+      "rating": 4.2, "ratingCount": "6.9K+", "prepMins": [24, 34],
+      "hours": { "opens": "08:00", "closes": "22:00" },
+      "verified": true, "promo": ["Citizens BOGOF", "BigWhizz deal"],
+      "categories": ["Chicken", "Fast Food", "Burgers"], "keywords": ["chicken", "burger", "fast food"],
+      "menuId": "chicken-republic", "provenance": "Brand, rating, prep time, promos and menu supplied by brief. Hours and coordinates are demo configuration."
+    },
+    {
+      "id": "cr-ikeja", "brand": "Chicken Republic", "branch": "Ikeja", "area": "ikeja",
+      "address": "Obafemi Awolowo Way, Ikeja (approx.)", "lat": 6.604, "lng": 3.353,
+      "rating": 4.2, "ratingCount": "6.9K+", "prepMins": [24, 34],
+      "hours": { "opens": "07:00", "closes": "23:00" },
+      "verified": true, "promo": ["Citizens BOGOF", "BigWhizz deal"],
+      "categories": ["Chicken", "Fast Food", "Burgers"], "keywords": ["chicken", "burger", "fast food"],
+      "menuId": "chicken-republic", "provenance": "Brand, rating, prep time, promos and menu supplied by brief. Hours and coordinates are demo configuration."
+    },
+    {
+      "id": "cr-surulere", "brand": "Chicken Republic", "branch": "Surulere", "area": "surulere",
+      "address": "Adeniran Ogunsanya St, Surulere (approx.)", "lat": 6.495, "lng": 3.3555,
+      "rating": 4.2, "ratingCount": "6.9K+", "prepMins": [24, 34],
+      "hours": { "opens": "08:00", "closes": "22:00" },
+      "verified": true, "promo": ["Citizens BOGOF", "BigWhizz deal"],
+      "categories": ["Chicken", "Fast Food", "Burgers"], "keywords": ["chicken", "burger", "fast food"],
+      "menuId": "chicken-republic", "provenance": "Brand, rating, prep time, promos and menu supplied by brief. Hours and coordinates are demo configuration."
+    },
+    {
+      "id": "cr-vi", "brand": "Chicken Republic", "branch": "Victoria Island", "area": "vi",
+      "address": "Adeola Odeku St, Victoria Island (approx.)", "lat": 6.43, "lng": 3.421,
+      "rating": 4.2, "ratingCount": "6.9K+", "prepMins": [24, 34],
+      "hours": { "opens": "08:00", "closes": "22:00" },
+      "verified": true, "promo": ["Citizens BOGOF", "BigWhizz deal"],
+      "categories": ["Chicken", "Fast Food", "Burgers"], "keywords": ["chicken", "burger", "fast food"],
+      "menuId": "chicken-republic", "provenance": "Brand, rating, prep time, promos and menu supplied by brief. Hours and coordinates are demo configuration."
+    },
+    {
+      "id": "bukka-hut-yaba", "brand": "Bukka Hut", "branch": "Alagomeji, Yaba", "area": "yaba",
+      "address": "Alagomeji, Yaba (approx.)", "lat": 6.499, "lng": 3.378,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["African"], "keywords": ["swallow", "rice", "jollof", "assorted meat", "african"],
+      "menuId": null, "provenance": "Name and branch supplied by brief. TODO: add verified menu, prices, rating and hours."
+    },
+    {
+      "id": "bukka-hut-lekki", "brand": "Bukka Hut", "branch": "Lekki Phase 1", "area": "lekki",
+      "address": "Lekki Phase 1 (approx.)", "lat": 6.449, "lng": 3.47,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["African"], "keywords": ["swallow", "rice", "jollof", "assorted meat", "african"],
+      "menuId": null, "provenance": "Name and branch supplied by brief. TODO: add verified menu, prices, rating and hours."
+    },
+    {
+      "id": "item-7-go-allen", "brand": "Item 7 Go", "branch": "Allen, Ikeja", "area": "ikeja",
+      "address": "Allen Avenue, Ikeja (approx.)", "lat": 6.6, "lng": 3.356,
+      "rating": 4.5, "ratingCount": "39.3K+", "prepMins": null, "hours": null,
+      "verified": false, "promo": ["20% off rice and chicken + a 60cl drink"],
+      "categories": ["African", "Chicken"], "keywords": ["rice", "chicken", "jollof"],
+      "menuId": null, "provenance": "Name, branch, rating, rating count and promotion supplied by brief. TODO: add verified menu, prices, prep time and hours."
+    },
+    {
+      "id": "firewood-jollof-opebi", "brand": "Firewood Smokey Party Jollof HUB", "branch": "Opebi", "area": "opebi",
+      "address": "Opebi, Ikeja (approx.)", "lat": 6.595, "lng": 3.364,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["African"], "keywords": ["jollof", "rice", "party jollof"],
+      "menuId": null, "provenance": "Name and branch supplied by brief. TODO: add verified menu, prices, rating and hours."
+    },
+    {
+      "id": "amala-ibadan-ikotun", "brand": "Amala Ibadan", "branch": "Ikotun", "area": "ikotun",
+      "address": "Ikotun (approx.)", "lat": 6.548, "lng": 3.265,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["African"], "keywords": ["swallow", "amala", "assorted meat"],
+      "menuId": null, "provenance": "Name and branch supplied by brief. TODO: add verified menu, prices, rating and hours."
+    },
+    {
+      "id": "university-of-suya-oregun", "brand": "University of Suya", "branch": "Oregun", "area": "oregun",
+      "address": "Oregun, Ikeja (approx.)", "lat": 6.606, "lng": 3.364,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["African"], "keywords": ["suya", "late night"],
+      "menuId": null, "provenance": "Name and branch supplied by brief. TODO: add verified menu, prices, rating and hours."
+    },
+    {
+      "id": "fruitylife-gra", "brand": "FruityLife", "branch": "GRA/LASUTH, Ikeja", "area": "ikeja",
+      "address": "GRA / LASUTH, Ikeja (approx.)", "lat": 6.596, "lng": 3.343,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["Fit Fam", "Parfait", "Drinks"], "keywords": ["fruit", "parfait", "healthy", "drinks", "sweet"],
+      "menuId": null, "provenance": "Name and branch supplied by brief. Categories inferred from the vendor name only — TODO: verify. TODO: add verified menu, prices, rating and hours."
+    },
+    {
+      "id": "dominos", "brand": "Domino's Pizza", "branch": null, "area": null,
+      "address": null, "lat": null, "lng": null,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["Pizza", "Fast Food"], "keywords": ["pizza"],
+      "menuId": null, "provenance": "Name supplied by brief. TODO: add branch locations, verified menu, prices, rating and hours."
+    },
+    {
+      "id": "cold-stone", "brand": "Cold Stone Creamery", "branch": null, "area": null,
+      "address": null, "lat": null, "lng": null,
+      "rating": null, "ratingCount": null, "prepMins": null, "hours": null,
+      "verified": false, "promo": [],
+      "categories": ["Desserts"], "keywords": ["sweet", "ice cream", "dessert"],
+      "menuId": null, "provenance": "Name supplied by brief. TODO: add branch locations, verified menu, prices, rating and hours."
+    }
+  ]
+}

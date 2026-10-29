@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "description": "Approximate geographic centre points of Lagos areas used by the BellaChow portfolio demo.",
+    "provenance": "Rounded public-map approximations. NOT surveyed coordinates and NOT live rider or customer GPS. Distances derived from these are straight-line (Haversine) prototype estimates, not road distance.",
+    "precision": "~4 decimal places; treat as +/- several hundred metres"
+  },
+  "areas": [
+    { "id": "yaba", "name": "Yaba", "short": "Yaba", "lat": 6.5095, "lng": 3.3711, "aliases": ["yaba", "alagomeji", "sabo", "akoka"], "defaultAddress": "Herbert Macaulay Way, Yaba" },
+    { "id": "lekki", "name": "Lekki", "short": "Lekki", "lat": 6.4474, "lng": 3.473, "aliases": ["lekki phase 1", "lekki phase one", "lekki"], "defaultAddress": "Admiralty Way, Lekki Phase 1" },
+    { "id": "ikeja", "name": "Ikeja", "short": "Ikeja", "lat": 6.6018, "lng": 3.3515, "aliases": ["ikeja gra", "ikeja", "allen", "lasuth"], "defaultAddress": "Obafemi Awolowo Way, Ikeja" },
+    { "id": "surulere", "name": "Surulere", "short": "Surulere", "lat": 6.4969, "lng": 3.354, "aliases": ["surulere", "ojuelegba", "adeniran ogunsanya"], "defaultAddress": "Adeniran Ogunsanya St, Surulere" },
+    { "id": "vi", "name": "Victoria Island", "short": "VI", "lat": 6.4281, "lng": 3.4219, "aliases": ["victoria island", "v.i.", "vi"], "defaultAddress": "Adeola Odeku St, Victoria Island" },
+    { "id": "ikoyi", "name": "Ikoyi", "short": "Ikoyi", "lat": 6.455, "lng": 3.435, "aliases": ["ikoyi"], "defaultAddress": "Awolowo Rd, Ikoyi" },
+    { "id": "ajah", "name": "Ajah", "short": "Ajah", "lat": 6.4698, "lng": 3.5852, "aliases": ["ajah"], "defaultAddress": "Lekki-Epe Expressway, Ajah" },
+    { "id": "gbagada", "name": "Gbagada", "short": "Gbagada", "lat": 6.5536, "lng": 3.3887, "aliases": ["gbagada"], "defaultAddress": "Diya St, Gbagada" },
+    { "id": "ogudu", "name": "Ogudu", "short": "Ogudu", "lat": 6.5728, "lng": 3.3925, "aliases": ["ogudu"], "defaultAddress": "Ogudu Rd, Ogudu" },
+    { "id": "maryland", "name": "Maryland", "short": "Maryland", "lat": 6.571, "lng": 3.367, "aliases": ["maryland"], "defaultAddress": "Ikorodu Rd, Maryland" },
+    { "id": "oregun", "name": "Oregun", "short": "Oregun", "lat": 6.607, "lng": 3.362, "aliases": ["oregun"], "defaultAddress": "Kudirat Abiola Way, Oregun" },
+    { "id": "opebi", "name": "Opebi", "short": "Opebi", "lat": 6.595, "lng": 3.36, "aliases": ["opebi"], "defaultAddress": "Opebi Rd, Opebi" },
+    { "id": "ikotun", "name": "Ikotun", "short": "Ikotun", "lat": 6.548, "lng": 3.265, "aliases": ["ikotun"], "defaultAddress": "Ikotun-Egbe Rd, Ikotun" }
+  ]
+}
